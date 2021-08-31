@@ -2,6 +2,8 @@
 
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -30,17 +32,21 @@ h3 {
 	opacity: 0.5;
 }
 
+img {
+	margin: 4px 0;
+	width: 40px;
+}
+
 p {
 	font-style: italic;
 	line-height: 1.4;
 	font-size: 12px;
-	margin-top: 4px;
 }
 
 .joke {
 	font-size: 30px;
 	line-height: 40px;
-	margin: 50px auto;
+	margin: 35px auto;
 	max-width: 600px;
 }
 
